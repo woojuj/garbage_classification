@@ -9,4 +9,4 @@ In this folder are the outputs of the model and the figures with the results.
 - `roc_curve.png`: The ROC curve shows the model’s performance across each class, with AUC values ranging from 0.85 to 0.96. The "Green" category achieves the highest AUC (0.96), indicating strong classification performance for this class, while the "Black" category has a slightly lower AUC (0.85), reflecting greater classification difficulty. These results suggest that, while the model performs well overall, specific improvements may be needed to enhance accuracy for more challenging classes.
 
 
-Link to the .pth file (because the size it's bigger than the limit allowed by GitHub): https://uofc-my.sharepoint.com/:u:/g/personal/felipe_castanogonzal_ucalgary_ca/ESzcIHApjDNDmt3UMMFzZEEBgakADYhgW9-MLArYFl_smQ?e=sbRWPH 
+Link to the **best_model.pth** file (because the size it's bigger than the limit allowed by GitHub): https://uofc-my.sharepoint.com/:u:/g/personal/felipe_castanogonzal_ucalgary_ca/ESzcIHApjDNDmt3UMMFzZEEBgakADYhgW9-MLArYFl_smQ?e=sbRWPH 
