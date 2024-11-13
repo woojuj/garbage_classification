@@ -49,6 +49,6 @@ The code structure is organized as follows:
 
 The data is accessed through specified directory paths for training, validation, and testing (TRAIN_PATH, VAL_PATH, and TEST_PATH). Within these directories, images and text files are organized in labeled folders corresponding to each classification category (e.g., "Black," "Blue," "Green," "TTR"). The custom GarbageDataset class reads each image and associated text description, transforming images and tokenizing text for model input. For each label folder, image files (.jpg or .png) and their corresponding text files (.txt) are processed, enabling the model to access multi-modal inputs.
 
-## Model Design Decisions
+## Result
 
 The model successfully classified garbage images and text descriptions, achieving a final evaluation accuracy of approximately 72%. This result reflects the effectiveness of its multi-modal approach, combining ResNet50 for image feature extraction and BERT for text processing, enabling the model to learn patterns from both data types. Through early stopping, the model retained the best-performing version based on validation accuracy, mitigating potential overfitting. Overall, the model provides a reliable, scalable framework for image-text classification with room for optimization.
